@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class WeatherForcastController {
 
+
+
     @GetMapping("/WeatherForecast")
     @ResponseBody
     public List<WeatherForecast> get() {
